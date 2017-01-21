@@ -1,0 +1,6 @@
+*.pyc
+*.sh
+*.db
+unload.py
+populate.sql
+*.swp
