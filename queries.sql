@@ -1,9 +1,8 @@
 CREATE TABLE Book (
         id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT, 
-        title TEXT NOT NULL, 
+        title TEXT NOT NULL UNIQUE, 
         author TEXT NOT NULL,
         pages INTEGER NOT NULL,
-        owned INTEGER DEFAULT 1, -- 0: false, 1: true
         tags TEXT
     );
 
